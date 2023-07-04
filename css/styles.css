@@ -695,7 +695,7 @@ img {
 .modal-check-label {
   display: flex;
   align-items: center;
-  user-select: none;
+  /* user-select: none; */
 }
 
 .privacy-check-wrapper {
@@ -730,7 +730,7 @@ img {
   cursor: pointer;
 }
 
-.modal-form-check:checked + .modal-check-label::before {
+/* .modal-form-check:checked + .modal-check-label::before {
   background-color: var(--action-color);
   background-image: url("../images/src/check-2.svg");
 
@@ -738,6 +738,11 @@ img {
 }
 .modal-form-check:focus + .modal-check-label::before {
   outline: 1px solid var(--accent-color);
+} */
+.modal-form-check:checked ~ .modal-check-label .privacy-check-icon {
+  /* fill: var(--accent-color); */
+  border: none;
+  background-color: var(--action-color);
 }
 
 .submit {
