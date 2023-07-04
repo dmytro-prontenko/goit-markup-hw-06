@@ -693,7 +693,7 @@ img {
 }
 
 .modal-check-label {
-  display: inline-flex;
+  /* display: inline-flex; */
   align-items: center;
   user-select: none;
 }
