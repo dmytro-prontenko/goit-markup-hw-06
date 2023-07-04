@@ -307,7 +307,7 @@ img {
 
 .footer-form {
   display: flex;
-  gap: 24px;
+  /* gap: 24px; */
 }
 
 .footer-wrapper {
@@ -408,6 +408,7 @@ img {
 }
 .subsribe-btn-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 
 /* .button-wrapper {
