@@ -635,7 +635,7 @@ img {
 .modal-form-field:focus,
 .modal-form-comment:focus {
   outline: none;
-  border-color: 1px solid var(--accent-color);
+  border-color: var(--accent-color);
   color: var(--main-text);
 }
 
