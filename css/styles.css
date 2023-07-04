@@ -584,7 +584,11 @@ img {
 
 .modal-title {
   margin-bottom: 16px;
+  font-weight: 500;
+  line-height: var(--general-lh);
   text-align: center;
+  letter-spacing: var(--ls-small);
+  color: var(--main-text);
 }
 
 .input-wrapper {
