@@ -695,17 +695,20 @@ img {
 .modal-check-label {
   display: flex;
   align-items: center;
+  user-select: none;
 }
 
-.privacy-check-container {
+.privacy-check-wrapper {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  fill: transparent;
+
   width: 16px;
   height: 16px;
-  border: 1px solidr gba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
+  fill: transparent;
+
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -719,6 +722,11 @@ img {
   margin-right: 8px;
   border-radius: 2px;
   border-color: 1px solid rgba(46, 47, 66, 0.4);
+  cursor: pointer;
+}
+
+.privacy-link {
+  color: var(--accent-color);
   cursor: pointer;
 }
 
