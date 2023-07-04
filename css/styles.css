@@ -693,13 +693,13 @@ img {
 }
 
 .modal-check-label {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   user-select: none;
 }
 
 .privacy-check-wrapper {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   margin-right: 8px;
