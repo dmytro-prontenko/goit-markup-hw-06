@@ -627,15 +627,15 @@ img {
   border-radius: 4px;
   outline: transparent;
 
-  border: 1px solid 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   background: transparent;
-  transition: border var(--transition-prop);
+  transition: border-color var(--transition-prop);
 }
 
 .modal-form-field:focus,
 .modal-form-comment:focus {
   outline: none;
-  border: 1px solid var(--accent-color);
+  border-color: 1px solid var(--accent-color);
   color: var(--main-text);
 }
 
@@ -688,7 +688,7 @@ img {
   height: 16px;
   margin-right: 8px;
   border-radius: 2px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-color: 1px solid rgba(46, 47, 66, 0.4);
   cursor: pointer;
 }
 
