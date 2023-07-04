@@ -333,24 +333,27 @@
           </ul>
         </div>
         <div class="footer-subscribe">
+          <p class="section-subtitle light">Subscribe</p>
           <form class="footer-form">
-            <p class="section-subtitle light">Subscribe</p>
-            <div class="subscribe-wrapper">
+            <label for="email" class="subscribe-label"
+              >Subscribe
               <input
                 type="email"
+                name="email"
+                id="email"
                 class="footer-subscribe-mail"
                 placeholder="E-mail"
                 required
               />
-              <button class="footer-subscribe-btn" type="submit">
-                <span class="button-wrapper">
-                  Subscribe
-                  <svg class="subsribe-btn-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-subscribe"></use>
-                  </svg>
-                </span>
-              </button>
-            </div>
+            </label>
+            <button class="footer-subscribe-btn" type="submit">
+              <!-- <span class="button-wrapper"> -->
+              Subscribe
+              <svg class="subsribe-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+              <!-- </span> -->
+            </button>
           </form>
         </div>
       </div>
