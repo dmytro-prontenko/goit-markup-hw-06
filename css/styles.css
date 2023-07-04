@@ -377,7 +377,6 @@ img {
   font-size: 12px;
   border-radius: 4px;
   border: 1px solid #fff;
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
   background-color: transparent;
 }
 
@@ -667,7 +666,7 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   height: 120px;
   padding: 8px 16px;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 
   resize: none;
 
@@ -683,6 +682,10 @@ img {
   background-color: transparent;
 
   transition: border-color var(--transition-prop);
+}
+
+.comment-wrapper {
+  margin-bottom: 16px;
 }
 
 .modal-form-check {
