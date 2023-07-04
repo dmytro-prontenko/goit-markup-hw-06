@@ -595,6 +595,7 @@ img {
   margin-bottom: 8px;
 }
 .input-wrapper {
+  position: relative;
   display: flex;
   flex-direction: column;
   margin-bottom: 26px;
@@ -616,7 +617,7 @@ img {
 
 .modal-icon-wrapper {
   position: relative;
-  display: block;
+  /* display: block; */
   width: 100%;
 }
 
