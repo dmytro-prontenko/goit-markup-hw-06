@@ -728,12 +728,12 @@ img {
   border-radius: 2px;
   border-color: 1px solid rgba(46, 47, 66, 0.4);
   cursor: pointer;
-}
+} */
 
 .privacy-link {
   color: var(--accent-color);
   cursor: pointer;
-} */
+}
 
 /* .modal-form-check:checked + .modal-check-label::before {
   background-color: var(--action-color);
@@ -745,7 +745,7 @@ img {
   outline: 1px solid var(--accent-color);
 } */
 .modal-form-check:checked ~ .modal-check-label .privacy-check-wrapper {
-  /* fill: var(--accent-color); */
+  fill: var(--accent-color);
   border: none;
   background-color: var(--action-color);
 }
