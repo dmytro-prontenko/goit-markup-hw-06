@@ -644,6 +644,11 @@ img {
   border-color: var(--accent-color);
   color: var(--main-text);
 }
+.modal-form-field:hover,
+.modal-form-comment:hover {
+  outline: none;
+  border-color: var(--accent-color);
+}
 
 .modal-form-field:focus + .modal-field-icon {
   fill: var(--accent-color);
