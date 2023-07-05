@@ -605,7 +605,6 @@ img {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-bottom: 26px;
 }
 
 .modal-form-label {
@@ -752,7 +751,7 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
-  margin: 24px auto;
+  margin: 0 auto;
   cursor: pointer;
 
   font-family: Roboto, sans-serif;
